@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             ' LateMate is a course registration website, complete with account creation, course registration (add/drop course), email notifications, complete course catalogs, and separate, secure login portals depending on whether you are a student or administrator. The project was developed in a group environment under a strict 10-week deadline.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            '',
           link: 'https://github.com/JPWarr7/latemate',
         },
       ],

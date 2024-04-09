@@ -14,10 +14,10 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jpwarr7/gitprofile', 'jpwarr7/ai-campaign-manager'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['jpwarr7/jpwarr7.github.io', 'jpwarr7/ai-campaign-manager', 'jpwarr7/finance-tracker', 'jpwarr7/latemate'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -35,18 +35,18 @@ const CONFIG = {
         {
           title: 'campAIgn',
           description:
-            "CampAIgn is an AI-enhanced advertisement campaign generator developed for my senior capstone project, utilizing various APIs such as OpenAI's GPT and Dall-E Models, as well as the Imgur API, Gmail API, Facebook API, and Google App Engine to allow users to create Campaigns using AI, manage them in a cloud-hosted database using Portfolios, and directly export them to their favorite social media app, all through a published, live web-app accessible in the link below.",
+            "CampAIgn is an AI-enhanced advertisement campaign generator developed for my senior capstone project, utilizing various APIs alongside Google App Engine to allow users to create Campaigns using AI, manage them in a cloud-hosted database, and directly export them to their favorite social media app, all through a published, live web-app.",
           imageUrl:
             '',
-          link: 'https://github.com/JPWarr7/AI-Campaign-Manager',
+          link: 'https://ai-enhanced-advertisements.ue.r.appspot.com/',
         },
         {
-          title: 'Project Name',
+          title: 'LateMate',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            ' LateMate is a course registration website, complete with account creation, course registration (add/drop course), email notifications, complete course catalogs, and separate, secure login portals depending on whether you are a student or administrator. The project was developed in a group environment under a strict 10-week deadline.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/JPWarr7/latemate',
         },
       ],
     },
@@ -57,8 +57,8 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'jonathan-warren-670089210',
+    twitter: 'JPWarr7',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -96,14 +96,14 @@ const CONFIG = {
       position: 'Junior Enterprise Architect',
       from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://rwater.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Southern Connecticut State University',
+      position: 'Teaching Assistant (Artificial Intelligence)',
+      from: 'February 2024',
+      to: 'Present',
+      companyLink: 'https://southernct.edu',
     },
   ],
   certifications: [
@@ -121,12 +121,6 @@ const CONFIG = {
       from: '',
       to: 'June 2024',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
   ],
   publications: [
     {
@@ -142,7 +136,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -154,7 +148,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

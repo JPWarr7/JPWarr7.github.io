@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jpwarr7/jpwarr7.github.io', 'jpwarr7/ai-campaign-manager', 'jpwarr7/finance-tracker', 'jpwarr7/latemate'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['JPWarr7/JPWarr7.github.io', 'jpwarr7/ai-campaign-manager', 'jpwarr7/finance-tracker', 'jpwarr7/latemate', 'jpwarr7/heart-attack-prediction-model'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,9 +52,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'JPWarr',
     description: '',
-    imageURL: '',
+    imageURL: 'static/favicon.ico',
   },
   social: {
     linkedin: 'jonathan-warren-670089210',
@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    'static/Jonathan Warren - Software Engineer.pdf',
   },
   skills: [
     'Python',
